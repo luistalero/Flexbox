@@ -1,0 +1,15 @@
+.barra{
+    background-color: azure;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    border: solid black;
+}
+.barra > a{
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+}
+.barra > a:hover{
+    border-bottom: 1px solid black;
+}
